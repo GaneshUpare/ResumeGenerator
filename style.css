@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#heading {
+  color: royalblue;
+  background-color: rgb(234, 231, 231);
+  box-shadow: 1px 2px 5px 0 rgb(0, 4, 255);
+}
+/* #cv-form{
+    display: none;
+} */
+
+.bodycolor {
+  background-image: linear-gradient(to right, #e47833, #fb4e23);
+}
+
+
+#copyright {
+  color: rgb(94, 252, 3);
+  text-shadow: 1px 2px 5px black;
+  font-weight: 900px;
+  /* background-color: aqua; */
+}
+
+#btn1 {
+  background-color: rgb(38, 179, 179);
+  border-radius: 10px;
+  width: 20%;
+  border-color: rgb(241, 214, 8);
+  box-shadow: black 2px 2px 1px 0.7px;
+}
+#btn2 {
+  background-color: rgb(38, 179, 179);
+  border-radius: 10px;
+  width: 20%;
+  border-color: rgb(241, 214, 8);
+
+  margin-bottom: 10%;
+  box-shadow: black 2px 2px 1px 0.7px;
+}
+
+#btn3 {
+  background-color: rgb(38, 179, 179);
+  border-radius: 10px;
+  width: 20%;
+  border-color: rgb(241, 214, 8);
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: black 2px 2px 1px 0.7px;
+}
+
+#cv-template {
+  display: none;
+}
+.myimg {
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 30%;
+}
+
+.background {
+  /* color: royalblue; */
+  background-color: antiquewhite;
+}
+
+#techno {
+  background-color: rgb(207, 255, 205);
+}
+
+@media (max-width: 600px) {
+  #btn3 {
+    background-color: rgb(38, 179, 179);
+    border-radius: 10px;
+    width: 50%;
+    border-color: rgb(241, 214, 8);
+
+    margin-bottom: 10%;
+    box-shadow: black 2px 2px 1px 0.7px;
+  }
+  #divide {
+    margin-top: 10%;
+  }
+}
